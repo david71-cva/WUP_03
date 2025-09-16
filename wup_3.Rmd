@@ -37,6 +37,12 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+The middle has the most people sitting there compared to the front and back, with 89. The Back has the least with 36, and the front is in the middle with 40. The seating in the back is the highest with 12.580471, the middle has 6.225381, and the front in last with 3.806013.
+
 ## Inferential Tests
 
 ## Conclusions
