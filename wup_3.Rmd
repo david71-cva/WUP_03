@@ -52,6 +52,12 @@ summary.aov(model1)
 
 It is interesting to see the P-Value this small at 0.000116. That means something different is happening statistically between the values.  
 
+```{r}
+plot(TukeyHSD(model1))
+```
+
+After looking at the 95% confindence level. It's clear the confidence intervals of the front, back, and middle seats. It has 0 showing the lines are different or they aren't. I saw that the front-back and middle back are different, because 0 does not go through it; but, for the middle front seats, 0 goes through the confidence interval making it clear there is nothing different.   
+
 ## Conclusions
 
 
