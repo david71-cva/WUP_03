@@ -56,8 +56,9 @@ It is interesting to see the P-Value this small at 0.000116. That means somethin
 plot(TukeyHSD(model1))
 ```
 
-After looking at the 95% confindence level. It's clear the confidence intervals of the front, back, and middle seats. It has 0 showing the lines are different or they aren't. I saw that the front-back and middle back are different, because 0 does not go through it; but, for the middle front seats, 0 goes through the confidence interval making it clear there is nothing different.   
+After looking at the 95% confidence level. It's clear the confidence intervals of the front, back, and middle seats. It has 0 showing the lines are different or they aren't. I saw that the front-back and middle back are different, because 0 does not go through it; but, for the middle front seats, 0 goes through the confidence interval making it clear there is nothing different.   
 
 ## Conclusions
 
+After working through this, I learned that looking at numerical categorical data. While working with two different categories, The P-value is a lot smaller than when working with one, which showed something was different than usual. The middle seats had the most. The front came in second with 40. Last was the back with 36. With the 95% confidence the intervals, the ones that had zero are different or they could not be. For the ones that had 0 going through it, there wasn't much that was different at all.The ones that didn't have 0, front-back and middle, they were different. It was a bit confusing at first but with the helper flies I was able to navigate through this.
 
